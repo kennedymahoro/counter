@@ -1,14 +1,15 @@
-const Display_Output:Element = document.querySelector("[data-display]")
-const Subtract_BTN:Element = document.querySelector("[data-down]")
-const Addition_BTN:Element = document.querySelector("[data-up]")
+export{}
+const DisplayOutput:Element = document.querySelector("[data-display]")
+const SubtractBTN:Element = document.querySelector("[data-down]")
+const AdditionBTN:Element = document.querySelector("[data-up]")
 
-let Output:number = 0;
+let output:number = 0;
 
-Subtract_BTN.addEventListener('click', ():void =>{
-    Output--;
-    Display_Output.innerHTML = Output.toString();
+SubtractBTN.addEventListener('click', ():void =>{
+    output--;
+    DisplayOutput.innerHTML = output.toString();
 })
-Addition_BTN.addEventListener('click', ():void =>{
-    Output++;
-    Display_Output.innerHTML = Output.toString();
+AdditionBTN.addEventListener('click', ():void =>{
+    output++;
+    DisplayOutput.innerHTML = output.toString();
 })

@@ -1,12 +1,14 @@
-var Display_Output = document.querySelector("[data-display]");
-var Subtract_BTN = document.querySelector("[data-down]");
-var Addition_BTN = document.querySelector("[data-up]");
-var Output = 0;
-Subtract_BTN.addEventListener('click', function () {
-    Output--;
-    Display_Output.innerHTML = Output.toString();
+"use strict";
+exports.__esModule = true;
+var DisplayOutput = document.querySelector("[data-display]");
+var SubtractBTN = document.querySelector("[data-down]");
+var AdditionBTN = document.querySelector("[data-up]");
+var output = 0;
+SubtractBTN.addEventListener('click', function () {
+    output--;
+    DisplayOutput.innerHTML = output.toString();
 });
-Addition_BTN.addEventListener('click', function () {
-    Output++;
-    Display_Output.innerHTML = Output.toString();
+AdditionBTN.addEventListener('click', function () {
+    output++;
+    DisplayOutput.innerHTML = output.toString();
 });
