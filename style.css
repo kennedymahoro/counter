@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+button{
+    width: 2rem;
+    height: 2rem;
+    border-style: double;
+    color: white;
+    font-size: 1.5rem;
+}
+.up{
+    background-color: blueviolet;
+}
+.down{
+    background-color: blue;
+}
+.display{
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
