@@ -1,5 +1,4 @@
 "use strict";
-exports.__esModule = true;
 var DisplayOutput = document.querySelector("[data-display]");
 var SubtractBTN = document.querySelector("[data-down]");
 var AdditionBTN = document.querySelector("[data-up]");
